@@ -31,4 +31,4 @@ jobs:
         run: docker build -t dudamegc/exemplo-pipeline---devops.1.0.${{ github.run_number }} .
 
       - name: Push Image
-        run: docker push dudamegc/Exemplo-Pipeline---DevOps.1.0.${{ github.run_number }}
+        run: docker push dudamegc/exemplo-pipeline---devops.1.0.${{ github.run_number }}
